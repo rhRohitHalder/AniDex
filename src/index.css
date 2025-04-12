@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+    width: 7px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #2d2d2d;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #7b40e9;
+    border-radius: 10px;
+}
