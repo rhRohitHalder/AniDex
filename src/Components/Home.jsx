@@ -56,7 +56,7 @@ import Horizontal_Card from "./Horizontal_Card";
 import Footer from "./Footer";
 
 const Home = () => {
-  document.title = "Netflix | Home";
+  document.title = "AniDex | Home";
 
   const [Wallpaper, setWallpaper] = useState(null);
   const [AnimeList, setAnimeList] = useState([]);

@@ -110,7 +110,7 @@ const NavBar = () => {
       <div className="bg-cyan-950 p-3 rounded-md flex items-center justify-center gap-3 text-2xl font-semibold">
         <i className="ri-tv-fill text-red-800 cursor-pointer"></i>
         <Link to={"/"} className="text-white">
-          Netflix
+          AniDex
         </Link>
       </div>
       {/* Menu */}
